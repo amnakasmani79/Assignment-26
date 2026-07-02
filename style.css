@@ -1,3 +1,9 @@
+@font-face {
+    font-family: my fonts;
+    src: url(./gilroy-regular.ttf);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -17,10 +23,14 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 70px;
+    padding: 12px 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 nav img{
-    height: 70px;
     width: 150px;
 }
 .links{
@@ -34,6 +44,7 @@ nav img{
     color: #fff;
     text-transform: capitalize;
     font-size: 17px;
+    font-family: "Poppins";
 }
 .links a:hover{
     color: red;
@@ -57,6 +68,7 @@ nav button{
     font-size: 15px;
     padding: 0 20px 0px 20px;
     cursor: pointer;
+    font-family: my fonts;
 }
 nav button:hover{
     background-color: transparent;
@@ -78,6 +90,7 @@ nav button:hover{
     background-image: url(https://static.tossdown.com/images/ae9dff6a-3949-407f-a4d9-4f1e85a97f44.webp);
     background-size: cover;
     height: 87%;
+    margin-top: 90px;
 }
 #category{
     width: 100%;
@@ -92,6 +105,7 @@ nav button:hover{
     color: #fff;
     margin-top: 55px;
     margin-bottom: 45px;
+    font-family: my fonts;
 }
 .card{
     display: flex;
@@ -100,7 +114,6 @@ nav button:hover{
     gap: 25px;
 }
 .categories{
-    height: 400px;
     width: 200px;  
 }
 .img1{
@@ -144,9 +157,9 @@ nav button:hover{
     margin-top: 25px;
     text-align: center;
     font-weight: normal;
+    font-family: my fonts;
 }
 #discover{
-    height: 70%;
     width: 100%;
     background-color: #fff;
     display: flex;
@@ -174,16 +187,20 @@ nav button:hover{
     font-size: 20px;
     margin-bottom: 20px;
     font-weight: normal;
+    font-family: my fonts;
 }
 .content h5{
     font-size: 45px;
     margin-bottom: 25px;
+    text-transform: capitalize;
+    font-family: my fonts;
 }
 .content p{
     line-height: 1.7;
     font-size: 16px;
     margin-bottom: 35px;
     color: #ddd;
+    font-family: "Poppins";
 }
 .content button{
     width: 160px;
@@ -200,6 +217,7 @@ nav button:hover{
     font-size: 15px;
     padding: 0 20px 0px 20px;
     cursor: pointer;
+    font-family: my fonts;
 }
 #arrow{
     background-color: rgb(255, 255, 255);
@@ -220,7 +238,6 @@ nav button:hover{
     background-color:#000;
     color: #fff;
     padding: 85px;
-    min-height: 100%;
     width: 100%;
 }
 #deals h1{
@@ -228,6 +245,7 @@ nav button:hover{
     text-transform: capitalize;
     font-size: 40px;
     margin-bottom: 25px;
+    font-family: my fonts;
 }
 .deals{
     gap: 45px;
@@ -309,10 +327,12 @@ nav button:hover{
     text-transform: capitalize;
     margin-top: 20px;
     text-align: center;
+    font-family: my fonts;
 }
 .deals p{
     text-align: center;
     margin-top: 10px;
+    font-family: "Poppins";
 }
 .i {
     font-size: 16px;
@@ -349,6 +369,7 @@ nav button:hover{
     margin-top: 110px;
     font-size: 28px;
     margin-bottom: 18px;
+    font-family: my fonts;
 
 }
  #special-menu h1{
@@ -358,6 +379,7 @@ nav button:hover{
     line-height: 1.2;
     font-size: 40px;
     margin-bottom: 30px;
+    font-family: my fonts;
 }
  #special-menu p{
     text-transform: capitalize;
@@ -367,18 +389,21 @@ nav button:hover{
     color: #B7B7B7;
     font-size: 18px;
     margin-bottom: 35px;
+    font-family: "Poppins";
 }
  #special-menu h4{
     text-transform: capitalize;
     margin-bottom: 25px;
     margin-left: 85px;
     font-size: 22px;
+    font-family: my fonts;
 }
  #special-menu h5{
     text-transform: capitalize;
     margin-left: 85px;
     font-size: 18px;
     margin-bottom: 35px;
+    font-family: my fonts;
 }
  #special-menu button{
     margin-left: 85px;
@@ -395,6 +420,7 @@ nav button:hover{
     padding: 0 20px;
     cursor: pointer;
     font-size: 15px;
+    font-family: my fonts;
 }
  #special-menu i{
     height: 25px;
@@ -448,10 +474,12 @@ nav button:hover{
     color:#B7B7B7;
     font-size: 15px;
     padding-bottom: 24px;
+    font-family: "Poppins";
 }
 .a{
     display: flex;
     gap: 25px;
+    font-family: "Poppins";
 }
 .footer-data1 a{
     text-decoration: none;
@@ -464,6 +492,7 @@ nav button:hover{
     text-transform: capitalize;
     margin-top: 90px;
     margin-bottom: 25px;
+    font-family: my fonts;
 
     color: #fff;
     font-size: 22px;
@@ -480,6 +509,7 @@ nav button:hover{
 .head{
     margin-top: 80px;
     margin-bottom: 20px;
+    font-family: my fonts;
 }
 .footer-data h5{
     text-transform: capitalize;
@@ -487,11 +517,13 @@ nav button:hover{
     color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
+    font-family: my fonts;
 }
 .footer-data p{
     color: #B7B7B7;
     text-transform: capitalize;
     margin-bottom: 20px;
+    font-family: "Poppins";
 }
 .footer-data ul{
     margin-bottom: 20px;
@@ -499,7 +531,7 @@ nav button:hover{
 .footer-data a{
     text-decoration: none;
     color: #B7B7B7;
-    
+    font-family: "Poppins";
 }
 .footer-icon{
     display: flex;
@@ -528,7 +560,10 @@ footer{
     justify-content: space-between;
     font-weight: 600;
     padding: 20px 0;
+    
 }
 footer p{
     margin: 0 auto;
+    font-family: "Poppins";
+
 }
