@@ -3,22 +3,26 @@
     src: url(./gilroy-regular.ttf);
 }
 
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     height: 100%;
     width: 100%;
     background: #000;
+    overflow-x: hidden;
 }
-#main{
+
+#main {
     width: 100%;
     height: auto;
 }
-nav{
+
+nav {
     background-color: #000;
     display: flex;
     align-items: center;
@@ -30,30 +34,36 @@ nav{
     width: 100%;
     z-index: 1000;
 }
-nav img{
+
+nav img {
     width: 150px;
 }
-.links{
+
+.links {
     display: flex;
     align-items: center;
     gap: 45px;
 
 }
-.links a{
+
+.links a {
     text-decoration: none;
     color: #fff;
     text-transform: capitalize;
     font-size: 17px;
     font-family: "Poppins";
 }
-.links a:hover{
+
+.links a:hover {
     color: red;
 }
-.icon i{
+
+.icon i {
     font-size: 18px;
     cursor: pointer;
 }
-nav button{
+
+nav button {
     width: 170px;
     height: 45px;
     border-radius: 30px;
@@ -70,35 +80,41 @@ nav button{
     cursor: pointer;
     font-family: my fonts;
 }
-nav button:hover{
+
+nav button:hover {
     background-color: transparent;
     border: 1px solid #fff;
 
 }
-.arrow{
+
+.arrow {
     background-color: rgb(255, 255, 255);
     color: red;
     height: 25px;
     width: 25px;
     font-size: 14px;
     display: flex;
-    align-items: center;justify-content: center;
-    border-radius: 50%;  
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
-#offer{
+
+#offer {
     width: 100%;
     background-image: url(https://static.tossdown.com/images/ae9dff6a-3949-407f-a4d9-4f1e85a97f44.webp);
     background-size: cover;
     height: 87%;
     margin-top: 90px;
 }
-#category{
+
+#category {
     width: 100%;
     height: 90%;
     background-color: #000;
-    padding: 25px;  
+    padding: 25px;
 }
-#category h1{
+
+#category h1 {
     text-align: center;
     text-transform: capitalize;
     font-size: 40px;
@@ -107,51 +123,59 @@ nav button:hover{
     margin-bottom: 45px;
     font-family: my fonts;
 }
-.card{
+
+.card {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
 }
-.categories{
-    width: 200px;  
+
+.categories {
+    width: 200px;
 }
-.img1{
+
+.img1 {
     background-image: url(https://static.tossdown.com/images/174d23fc-3897-43ed-a20b-15c78613d2ec.webp);
     background-size: cover;
     background-position: center;
     height: 350px;
     width: 100%;
 }
-.img2{
+
+.img2 {
     background-image: url(https://static.tossdown.com/images/5040fa98-dfb9-46ea-88ea-295ca3c566cc.webp);
     background-size: cover;
     background-position: center;
     height: 350px;
     width: 100%;
 }
-.img3{
+
+.img3 {
     height: 350px;
     width: 100%;
     background-image: url(https://static.tossdown.com/images/f0c37e1e-408c-4a4d-b47f-71727066d8f0.webp);
     background-size: cover;
     background-position: center;
 }
-.img4{
+
+.img4 {
     background-image: url(https://static.tossdown.com/images/0e588fff-bf91-4c17-ad67-342add033c06.webp);
     background-size: cover;
     background-position: center;
     height: 350px;
     width: 100%;
 }
-.img5{
+
+.img5 {
     height: 350px;
     width: 100%;
     background-image: url(https://static.tossdown.com/images/ae2be7e7-974b-4ca2-865e-440c2237783e.webp);
     background-size: cover;
     background-position: center;
 }
-.categories h3{
+
+.categories h3 {
     color: #fff;
     text-transform: capitalize;
     margin-top: 25px;
@@ -159,16 +183,19 @@ nav button:hover{
     font-weight: normal;
     font-family: my fonts;
 }
-#discover{
+
+#discover {
     width: 100%;
     background-color: #fff;
     display: flex;
 }
-.left{
+
+.left {
     width: 50%;
     background-image: url(https://static.tossdown.com/images/308fb0ff-0dfd-486f-966c-d86b7b6199a8.webp);
 }
-.right{
+
+.right {
     width: 50%;
     background-color: #0F0F0F;
     color: #fff;
@@ -176,11 +203,13 @@ nav button:hover{
     display: flex;
     align-items: center;
 }
-.content{
+
+.content {
     color: #fff;
     width: 500px;
 }
-.content h3{
+
+.content h3 {
     text-transform: uppercase;
     color: red;
     letter-spacing: 8px;
@@ -189,25 +218,28 @@ nav button:hover{
     font-weight: normal;
     font-family: my fonts;
 }
-.content h5{
+
+.content h5 {
     font-size: 45px;
     margin-bottom: 25px;
     text-transform: capitalize;
     font-family: my fonts;
 }
-.content p{
+
+.content p {
     line-height: 1.7;
     font-size: 16px;
     margin-bottom: 35px;
     color: #ddd;
     font-family: "Poppins";
 }
-.content button{
+
+.content button {
     width: 160px;
     height: 45px;
     border-radius: 30px;
     text-transform: capitalize;
-    background-color:transparent;
+    background-color: transparent;
     color: #fff;
     border: 1px solid white;
     display: flex;
@@ -219,7 +251,8 @@ nav button:hover{
     cursor: pointer;
     font-family: my fonts;
 }
-#arrow{
+
+#arrow {
     background-color: rgb(255, 255, 255);
     color: red;
     height: 25px;
@@ -230,24 +263,28 @@ nav button:hover{
     justify-content: center;
     border-radius: 50%;
 }
-.content button:hover{
+
+.content button:hover {
     color: #000;
     background-color: white;
 }
-#deals{
-    background-color:#000;
+
+#deals {
+    background-color: #000;
     color: #fff;
     padding: 85px;
     width: 100%;
 }
-#deals h1{
+
+#deals h1 {
     text-align: center;
     text-transform: capitalize;
     font-size: 40px;
     margin-bottom: 25px;
     font-family: my fonts;
 }
-.deals{
+
+.deals {
     gap: 45px;
     display: flex;
     align-items: center;
@@ -256,84 +293,99 @@ nav button:hover{
     text-align: center;
 
 }
-.menu{
+
+.menu {
     height: 380px;
     width: 400px;
 }
-.menu1{
+
+.menu1 {
     height: 550px;
     width: 400px;
 }
-.menu2{
+
+.menu2 {
     height: 450px;
     width: 430px;
 }
-.menu4{
+
+.menu4 {
     height: 500px;
     width: 430px;
 }
-.menu5{
+
+.menu5 {
     height: 400px;
     width: 400px;
 }
-.menu6{
+
+.menu6 {
     height: 580px;
     width: 420px;
 
 }
-#image1{
+
+#image1 {
     background-image: url(https://static.tossdown.com/images/7963085a-4c91-4fe6-b899-70266e464656.webp);
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 450px;
 }
-#image2{
+
+#image2 {
     background-image: url(https://static.tossdown.com/images/72564eae-6254-4ec3-847d-976828221019.webp);
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 380px;
 }
-#image3{
+
+#image3 {
     height: 450px;
     width: 100%;
     background-image: url(https://static.tossdown.com/images/0ef7127c-188b-4448-9781-1027ab3a320d.webp);
     background-position: center;
     background-size: cover;
 }
-#image4{
+
+#image4 {
     height: 420px;
     width: 100%;
     background-image: url(https://static.tossdown.com/images/d36519b4-3657-4df2-9aa0-0c8e21ad8445.webp);
     background-size: cover;
     background-position: center;
 }
-#image5{
+
+#image5 {
     height: 360px;
     width: 100%;
     background-image: url(https://static.tossdown.com/images/a8360459-10c2-403a-873c-3e0e136a805b.webp);
     background-size: cover;
     background-position: center;
 }
-#image6{
+
+#image6 {
     height: 450px;
     width: 100%;
     background-image: url(https://static.tossdown.com/images/22d2b199-5834-4e55-82ad-b7a9d6b5c799.webp);
     background-size: cover;
     background-position: center;
 }
-.deals h3{
+
+.deals h3 {
     text-transform: capitalize;
     margin-top: 20px;
     text-align: center;
     font-family: my fonts;
 }
-.deals p{
+
+.deals p {
     text-align: center;
     margin-top: 10px;
     font-family: "Poppins";
 }
+
 .i {
     font-size: 16px;
     background-color: red;
@@ -342,11 +394,12 @@ nav button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px auto ;
+    margin: 20px auto;
     margin-top: 20px;
     cursor: pointer;
 }
-#special-menu{
+
+#special-menu {
     background-color: #0F0F0F;
     width: 100%;
     height: 100%;
@@ -354,14 +407,16 @@ nav button:hover{
     color: #fff;
     padding: 25px;
 }
- .imgs img{
+
+.imgs img {
     height: 710px;
     width: 770px;
     position: absolute;
     left: 48%;
     top: 7px;
 }
- #special-menu h3{
+
+#special-menu h3 {
     text-transform: uppercase;
     color: red;
     font-weight: normal;
@@ -372,7 +427,8 @@ nav button:hover{
     font-family: my fonts;
 
 }
- #special-menu h1{
+
+#special-menu h1 {
     text-transform: capitalize;
     margin-left: 85px;
     width: 390px;
@@ -381,7 +437,8 @@ nav button:hover{
     margin-bottom: 30px;
     font-family: my fonts;
 }
- #special-menu p{
+
+#special-menu p {
     text-transform: capitalize;
     margin-left: 85px;
     width: 450px;
@@ -391,27 +448,31 @@ nav button:hover{
     margin-bottom: 35px;
     font-family: "Poppins";
 }
- #special-menu h4{
+
+#special-menu h4 {
     text-transform: capitalize;
     margin-bottom: 25px;
     margin-left: 85px;
     font-size: 22px;
     font-family: my fonts;
 }
- #special-menu h5{
+
+#special-menu h5 {
     text-transform: capitalize;
     margin-left: 85px;
     font-size: 18px;
     margin-bottom: 35px;
     font-family: my fonts;
 }
- #special-menu button{
+
+#special-menu button {
     margin-left: 85px;
     height: 45px;
     width: 170px;
     border-radius: 30px;
     text-transform: capitalize;
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: space-around;
     gap: 12px;
     color: #fff;
@@ -422,72 +483,83 @@ nav button:hover{
     font-size: 15px;
     font-family: my fonts;
 }
- #special-menu i{
+
+#special-menu i {
     height: 25px;
     width: 25px;
     background-color: #fff;
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     border-radius: 50%;
     font-size: 14px;
 }
-.footer{
-    height: 100%;
+
+.footer {
+    min-height: 100%;
     width: 100%;
     background-color: #0F0F0F;
     padding: 45px;
     margin-top: 60px;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
-.footer-data1{
+
+.footer-data1 {
     height: 500px;
     width: 400px;
     text-align: left;
     color: #fff;
     padding-left: 25px;
 }
-.footer-data{
+
+.footer-data {
     height: 650px;
     width: 250px;
     text-align: left;
     padding: 25px;
 }
-.logo2 img{
+
+.logo2 img {
     height: 70px;
     width: 150px;
-    margin:0;
+    margin: 0;
     margin-top: 55px;
     margin-bottom: 20px;
 }
-.footer-data1 p{
+
+.footer-data1 p {
     width: 350px;
     margin: 0;
     text-align: left;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 1.2px;
-    color:#B7B7B7;
+    color: #B7B7B7;
     font-size: 15px;
     padding-bottom: 24px;
     font-family: "Poppins";
 }
-.a{
+
+.a {
     display: flex;
     gap: 25px;
     font-family: "Poppins";
 }
-.footer-data1 a{
+
+.footer-data1 a {
     text-decoration: none;
-    color:#B7B7B7;
+    color: #B7B7B7;
     text-transform: capitalize;
     margin: 0;
 }
-.footer-data h4{
+
+.footer-data h4 {
     text-align: left;
     text-transform: capitalize;
     margin-top: 90px;
@@ -497,21 +569,8 @@ nav button:hover{
     color: #fff;
     font-size: 22px;
 }
-.footer-data li a{
-    text-decoration: none;
-    color: #B7B7B7;
-    text-transform: capitalize;
-}
-.footer-data li{
-    list-style: none;
-    line-height: 2;
-}
-.head{
-    margin-top: 80px;
-    margin-bottom: 20px;
-    font-family: my fonts;
-}
-.footer-data h5{
+
+.footer-data h5 {
     text-transform: capitalize;
     text-align: left;
     color: #fff;
@@ -519,25 +578,52 @@ nav button:hover{
     font-size: 20px;
     font-family: my fonts;
 }
-.footer-data p{
+
+.follow-head {
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 90px;
+    margin-bottom: 25px;
+    font-family: my fonts;
+
+    color: #fff;
+    font-size: 22px;
+}
+
+.footer-data li a {
+    text-decoration: none;
+    color: #B7B7B7;
+    text-transform: capitalize;
+}
+
+.footer-data li {
+    list-style: none;
+    line-height: 2;
+}
+
+.footer-data p {
     color: #B7B7B7;
     text-transform: capitalize;
     margin-bottom: 20px;
     font-family: "Poppins";
 }
-.footer-data ul{
+
+.footer-data ul {
     margin-bottom: 20px;
 }
-.footer-data a{
+
+.footer-data a {
     text-decoration: none;
     color: #B7B7B7;
     font-family: "Poppins";
 }
-.footer-icon{
+
+.footer-icon {
     display: flex;
     gap: 12px;
 }
-.icon-container{
+
+.icon-container {
     height: 35px;
     width: 35px;
     border-radius: 50%;
@@ -547,23 +633,468 @@ nav button:hover{
     justify-content: center;
     margin-bottom: 25px;
 }
-.footer-data i{
-    font-size: 18px;  
 
-}#link img{
+.footer-data i {
+    font-size: 18px;
+
+}
+
+#link img {
     margin-bottom: 10px;
 }
-footer{
+
+footer {
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: 600;
     padding: 20px 0;
-    
+
 }
-footer p{
+
+footer p {
     margin: 0 auto;
     font-family: "Poppins";
 
+}
+
+.menu-icon {
+    display: none;
+}
+
+.user {
+    display: none;
+}
+
+.site span {
+    display: none;
+}
+
+@media (max-width: 425px) {
+    nav {
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 28px;
+    }
+
+    nav img {
+        width: 110px;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .links a {
+        display: none;
+    }
+
+    .links button {
+        display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .user {
+        display: block;
+        font-size: 22px;
+    }
+
+    .icon {
+        font-size: 22px;
+    }
+
+    #offer {
+        width: 100%;
+        height: 220px;
+        margin-top: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #category {
+        overflow-x: auto;
+        overflow-y: hidden;
+        width: 100%;
+        padding: 40px 0;
+        white-space: nowrap;
+        height: auto;
+    }
+
+    #categoty::-webkit-scrollbar {
+        display: none;
+    }
+
+    #category h1 {
+        font-size: 30px;
+        margin: 20px 0 30px;
+        text-align: center;
+    }
+
+    .card {
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        gap: 15px;
+        display: inline-flex;
+        padding: 0 40px;
+    }
+
+    .categories {
+        width: 100%;
+        flex: 0 auto;
+    }
+
+    .img1 {
+        width: 170px;
+        height: 260px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img2 {
+        width: 170px;
+        height: 260px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img3 {
+        width: 170px;
+        height: 260px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img4 {
+        width: 170px;
+        height: 260px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img5 {
+        width: 170px;
+        height: 260px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .categories h3 {
+        font-size: 16px;
+        margin-top: 12px;
+        text-align: center;
+        white-space: normal;
+
+    }
+
+    #discover {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .left {
+        width: 100%;
+        height: 320px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .right {
+        width: 100%;
+        display: block;
+        padding: 35px 20px;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .content h5 {
+        font-size: 32px;
+        margin-top: 15px;
+    }
+
+    .content p {
+        width: 90%;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+
+    .content button {
+        margin: 25px auto;
+    }
+
+    #deals {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+        column-gap: 20px;
+        padding: 40px 15px;
+        width: 100%;
+    }
+
+    .deals {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .menu1,
+    .menu2,
+    .menu4,
+    .menu5,
+    .menu6,
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+
+    #image1,
+    #image2,
+    #image3,
+    #image4,
+    #image5,
+    #image6 {
+        height: 180px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .deals h1 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .deals h3 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .deals p {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .i {
+        margin: 12px auto;
+    }
+
+    #special-menu {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 25px;
+        height: auto;
+    }
+
+    .imgs {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        display: block;
+    }
+
+    .imgs img {
+        position: static;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        left: 0;
+        top: 0;
+
+    }
+
+    #special-menu h3 {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 20px;
+    }
+
+    #special-menu h1 {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 34px;
+    }
+
+    #special-menu p {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    #special-menu h4 {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    #special-menu h5 {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    #special-menu button {
+        margin: 10px auto 0;
+        padding: 14px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    .footer {
+        padding: 35px 20px;
+        min-height: auto;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .footer-data1 {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .logo2 img {
+        display: block;
+        margin: 0 auto 20px;
+        width: 150px;
+        height: auto;
+    }
+
+    .footer-data1 p {
+        width: 100%;
+        text-align: center;
+        line-height: 28px;
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+
+    .a {
+        display: block;
+        text-align: center;
+    }
+
+    .a a {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .footer-data {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-data:last-child {
+        margin-top: -40px;
+        margin-bottom: 15px;
+    }
+
+    .footer-data ul {
+        display: none;
+        margin: 0;
+    }
+
+    .footer-data p {
+        display: none;
+    }
+
+    .site {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #222;
+        padding: 18px 0;
+    }
+
+    .site span {
+        display: block;
+        color: #fff;
+        font-size: 28px;
+
+    }
+
+    .site h4 {
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .follow-head h4 {
+        display: block;
+        text-align: left;
+        font-size: 22px;
+    }
+
+    .footer-data h5 {
+        display: none;
+    }
+
+    .footer-icon {
+        justify-content: center;
+        display: flex;
+        gap: 15px;
+    }
+
+    .icon-container {
+        width: 36px;
+        height: 36px;
+    }
+
+    #link {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #link img {
+        display: block;
+        margin: 10px auto;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+
+    footer p {
+        margin: 10px auto;
+    }
 }
